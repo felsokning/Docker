@@ -7,11 +7,14 @@ important to be able to return the given week number in an easily referenced
 code-base. This creates a webpage on port 80 to do just that.
 
 TO RUN:
-    python3 app.py
+	python3 app.py
 
-    NOTE:
-        As these strings are unicode strings, we must use python3, as any version before this
+NOTE:
+	As these strings are unicode strings, we must use python3, as any version before this
         treats all strings as ASCII. (Silly Americans, thinking everyone only uses ASCII...)
+
+ATTRIBUTIONS/CREDITS:
+	Original idea found on http://vecka.nu
 """
 
 __author__ = "felsokning"
